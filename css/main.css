@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.navbar-inverse {
+  height: 240px;
+  border: none;
+  border-radius: 0;
+  background-color: #2196F3;
+  margin: 0;
+  z-index: 1;
+}
+
+.navbar-link a {
+  border-bottom: 1px solid #474441;
+  border-left: 4px solid #34302D;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+  display: block;
+  padding: 15px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.navbar-link a:hover {
+  border-left: 4px solid #2196F3;
+}
+
+nav.navbar.shrink {
+	max-height: 60px;
+}
+
+nav.navbar h1 {
+  padding-top: 100px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+nav.navbar.shrink h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px;
+  position: fixed;
+  left: 65px;
+  top: 0px;
+}
+
+#map-btn {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+}
+
+#map-btn a {
+  color: #FFFFFF;
+}
+
+/***** Under Nav *****/
+
+.text-wrap {
+  padding-left: 150px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-right: 150px;
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #2196F3;
+}
+
+.epigraph{
+  padding-bottom: 20px;
+}
+.epigraph p {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#sidebar {
+  position: absolute;
+  display: block;
+  padding-top: 0px;
+  width: 0px;
+  height: 100%;
+  max-width: 100%;
+  float: left;
+  box-shadow: 10px 0 10px rgba(0,0,0,0.5);
+  z-index: 100;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.panel-header {
+  position: relative;
+  height: 125px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #474441;
+}
+
+.panel-header td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#panel-img {
+  height: 80px;
+  width: 80px;
+}
+
+.navigation-list {
+
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0;
+  padding-top: 240px;
+}
+
+#header {
+  height: 260px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.header-text {
+  margin-top: 160px;
+}
+
+.header-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-icon {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  cursor: pointer;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  width: 150px;
+  border-radius: 100%;
+
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  border-radius: 100%;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 96px;
+  background-color: #2196F3;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 96px;
+  background-color: #1EA362;
+}
+
+.next a {
+  font-size: 24px;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  padding-right: 80px;
+  padding-top: 35px;
+}
+
+.previous {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 96px;
+  background-color: #2196F3;
+}
+
+.previous a {
+  font-size: 24px;
+  color: #fff;
+  float: left;
+  text-decoration: none;
+  padding-left: 80px;
+  padding-top: 35px;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.main-text {
+  padding-bottom: 80px;
+  margin-bottom: 100px;
+}
